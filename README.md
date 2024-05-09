@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# nfc-rcs300-readidm
 
-## Getting Started
+このプロジェクトは、SONY RC-S300 を使用して IDm（個体識別番号）を読み取る Next.js アプリケーションです。
 
-First, run the development server:
+## 利用しているライブラリ
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+本プロジェクトでは、以下のサードパーティ製の JavaScript コードを利用しています。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- コードの詳細：[有限会社さくらシステムのウェブサイト](https://sakura-system.com/?p=2892)で公開されているコード
+- 制作者：近藤秀尚さん
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 謝辞
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+この場を借りて、近藤秀尚さんに深く感謝申し上げます。彼の公開してくれたコードを利用させていただくことで、本プロジェクトの開発を進めることができました。
 
-## Learn More
+## 機器の利用
 
-To learn more about Next.js, take a look at the following resources:
+このプロジェクトの検証には SONY の RC-S300 が使用されています。この機器を使用して、NFC タグからのデータ読取り機能を実装しています。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 免責事項
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+本リポジトリに含まれるコードについて、私たちはその正確性や安全性を保証するものではありません。これらのコードを利用した結果によって生じたいかなる問題に対しても責任を負いかねます。各自の責任の下で使用してください。
