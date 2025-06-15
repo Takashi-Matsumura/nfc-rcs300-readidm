@@ -1,5 +1,5 @@
 {
-  "name": "nfc-rcs300-readidm",
+  "name": "nfc-rcs300-typescript",
   "version": "1.0.0",
   "description": "TypeScript-enabled NFC card reader application using SONY RC-S300 USB NFC reader to read FeliCa IDm",
   "author": "Your Name",
@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/nfc-rcs300-readidm.git"
+    "url": "https://github.com/your-username/nfc-rcs300-typescript.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/nfc-rcs300-readidm/issues"
+    "url": "https://github.com/your-username/nfc-rcs300-typescript/issues"
   },
-  "homepage": "https://github.com/your-username/nfc-rcs300-readidm#readme",
+  "homepage": "https://github.com/your-username/nfc-rcs300-typescript#readme",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"

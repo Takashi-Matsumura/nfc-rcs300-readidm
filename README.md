@@ -36,8 +36,8 @@ TypeScript対応のNFCカードリーダーアプリケーション。SONY RC-S3
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/your-username/nfc-rcs300-readidm.git
-cd nfc-rcs300-readidm
+git clone https://github.com/your-username/nfc-rcs300-typescript.git
+cd nfc-rcs300-typescript
 
 # 依存関係をインストール
 npm install
