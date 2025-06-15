@@ -1,12 +1,39 @@
 {
   "name": "nfc-rcs300-readidm",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "TypeScript-enabled NFC card reader application using SONY RC-S300 USB NFC reader to read FeliCa IDm",
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": [
+    "nfc",
+    "felica",
+    "rc-s300",
+    "webusb",
+    "typescript",
+    "nextjs",
+    "card-reader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/nfc-rcs300-readidm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/nfc-rcs300-readidm/issues"
+  },
+  "homepage": "https://github.com/your-username/nfc-rcs300-readidm#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next out",
+    "export": "next build && next export"
   },
   "dependencies": {
     "react": "^18",
@@ -22,5 +49,17 @@
     "tailwindcss": "^3.4.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

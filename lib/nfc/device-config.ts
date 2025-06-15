@@ -1,5 +1,6 @@
-//deviceConfig.js
-export const deviceFilters = [
+import { DeviceFilter } from './types';
+
+export const deviceFilters: DeviceFilter[] = [
   {
     vendorId: 0x054c,
     productId: 0x06c1,
@@ -22,7 +23,7 @@ export const deviceFilters = [
   },
 ];
 
-export const deviceModelList = {
+export const deviceModelList: Record<number, number> = {
   0x06c1: 380,
   0x06c3: 380,
   0x0dc8: 300,
