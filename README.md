@@ -203,5 +203,5 @@ interface NFCReaderState {
 
 ---
 
-**作成者**: [Your Name]  
-**更新日**: 2024年12月
+**作成者**: [Takashi-Matsumura]
+**更新日**: 2025年6月
