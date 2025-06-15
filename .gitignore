@@ -58,3 +58,6 @@ logs
 # NFC reader test files
 test-cards/
 *.nfc
+
+# Claude Code instructions
+CLAUDE.md
